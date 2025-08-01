@@ -11,7 +11,6 @@ pipeline {
         ANSIBLE_DIR = "/home/jenkins/ansible"
         ANSIBLE_CONFIG = "/home/jenkins/ansible/ansible.cfg"
     }
-
     stages {
         stage('Checkout') {
             steps {
